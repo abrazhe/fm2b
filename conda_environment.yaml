@@ -1,0 +1,40 @@
+channels:
+- conda-forge
+dependencies:
+ - python>=3.10.*
+ - pip
+ - numpy
+ - scikit-fmm
+ - scikit-image
+ - matplotlib
+ - tqdm
+ - scipy
+ - pandas
+ - seaborn
+ - opencv
+ - napari
+ - fuzzywuzzy
+ - pathos
+ - pybaselines
+ - jupyterlab
+ - jupytext
+ - papermill
+ - plotly
+ - tifffile
+ - imageio
+ - h5py
+ - dask
+ - xarray
+ - numba
+ - scikit-learn
+ - networkx
+ - hdbscan
+ - umap-learn
+ - ipywidgets
+ - pip:
+   - neurom
+   - tmd
+   - swan
+   
+
+
