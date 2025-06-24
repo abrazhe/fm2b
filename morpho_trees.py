@@ -392,7 +392,7 @@ class Tree(dict):
                 if not loc in clean_tree:
                     clean_tree[loc] = p
         if verbose:
-            print('old tree size:', len(tree))
+            print('old tree size:', len(self))
             print('new tree size:', len(clean_tree))
         return clean_tree, twig_tree
 

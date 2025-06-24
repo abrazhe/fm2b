@@ -26,10 +26,22 @@ if RunningInCOLAB:
   #! pip install scikit-fmm
   ! pip install git+https://github.com/scikit-fmm/scikit-fmm.git
   ! pip install scikit-image
+  ! pip install powerlaw
 ```
 
 ```{code-cell} ipython3
 
+```
+
+```{code-cell} ipython3
+
+if RunningInCOLAB:
+  ! wget https://github.com/abrazhe/fm2b/raw/refs/heads/main/balanced_mst.py
+  ! wget https://github.com/abrazhe/fm2b/raw/refs/heads/main/fm2b.py
+  ! wget https://github.com/abrazhe/fm2b/raw/refs/heads/main/morpho_trees.py
+  ! wget https://github.com/abrazhe/fm2b/raw/refs/heads/main/sca.py
+  ! wget https://github.com/abrazhe/fm2b/raw/refs/heads/main/speed_fields.py
+  ! wget https://github.com/abrazhe/fm2b/raw/refs/heads/main/visualization.py
 ```
 
 ```{code-cell} ipython3
